@@ -1,0 +1,49 @@
+baseURL = "http://vcorange.space/"
+languageCode = "en-uk"
+title = "Clifford's Blog"
+theme = 'ananke'
+resourceDir = "../resources"
+
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 6 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[languages]
+  [languages.en]
+    title = "Clifford's space"
+    weight = 1
+    contentDir = "content/en"
+    # languageDirection = 'rtl' for Right-To-Left languages
+  [languages.zh]
+    title = "维C橙的空间"
+    author = "维C橙"
+    weight = 2
+    contentDir = "content/cn"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  text_color = ""
+  author = "CliffordChan"
+  favicon = "/images/icon/favicon-32x32.png"
+  site_logo = "/images/icon/apple-touch-icon.png"
+  description = "This is vcorange space. Clifford Chan's blog"
+  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  recent_posts_number = 5
+
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/Vcorangechan"
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/vcorange-chan"
+[[params.ananke_socials]]
+name = "youtube"
+url = "https://www.youtube.com/channel/UC3u31-X1TNVeY08QU1dVhDw"

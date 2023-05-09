@@ -1,0 +1,9 @@
+[submodule "themes/hugo-initio"]
+	path = themes/hugo-initio
+	url = https://github.com/miguelsimoni/hugo-initio.git
+[submodule "themes/healthSciences"]
+	path = themes/healthSciences
+	url = https://github.com/pkp/healthSciences.git
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke
