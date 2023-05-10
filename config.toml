@@ -39,14 +39,3 @@ enableRobotsTXT = true
   recent_posts_number = 5
   commentoEnable = false
   from= "2023"
-
-
-[[params.ananke_socials]]
-name = "twitter"
-url = "https://twitter.com/Vcorangechan"
-[[params.ananke_socials]]
-name = "github"
-url = "https://github.com/vcorange-chan"
-[[params.ananke_socials]]
-name = "youtube"
-url = "https://www.youtube.com/channel/UC3u31-X1TNVeY08QU1dVhDw"

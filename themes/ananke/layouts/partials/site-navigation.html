@@ -20,7 +20,7 @@
           {{ end }}
         </ul>
       {{ end }}
-      {{ partialCached "social-follow.html" . }}
+      {{ partialCached "social-follow.html" . (dict "rel" "noopener") }}
     </div>
     <li class="list f5 f4-ns fw4 dib pr3">
       <a class="hover-white no-underline white-90" href={{ "tags" | relLangURL }} title={{ i18n "tags" }}>

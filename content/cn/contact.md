@@ -1,15 +1,14 @@
 ---
 title: Contact
-featured_image: ''
+featured_image: '/images/cover/广州长隆动物园猫头鹰.jpg'
 omit_header_text: true
-description: Laissez-nous un message!
+description: I'd love to hear from you
 type: page
 menu: main
 
 ---
 
-Ceci est la page de contact en Français.
 
-This is an example of a custom shortcode that you can put right into your content. You will need to add a form action to the shortcode to make it work. Check out [Formspree](https://formspree.io/) for a simple, free form service.
+In addition to email, you can also follow me on [My twitter](https://twitter.com/Vcorangechan), [Github](https://github.com/vcorange-chan) and [Youtube](https://www.youtube.com/channel/UC3u31-X1TNVeY08QU1dVhDw)
 
-{{< form-contact action="https://example.com"  >}}
+{{< form-contact action="https://formspree.io/f/myyavgjw"  >}}
