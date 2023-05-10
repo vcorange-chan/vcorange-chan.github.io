@@ -1,11 +1,30 @@
 ---
 title: "About"
-description: "A few years ago, while visiting or, rather, rummaging about Notre-Dame, the author of this book found, in an obscure nook of one of the towers, the following word, engraved by hand upon the wall: —ANANKE."
-featured_image: '/images/Victor_Hugo-Hunchback.jpg'
+description: "Earth and Sky, the hotel of journey. Time goes by, without any delay."
+featured_image: '/images/cover/青岛石老人220108浪珠飞跃.jpg'
 menu:
-  main:
-    weight: 1
+    main:
+        weight: 1 
 ---
-{{< figure src="/images/Victor_Hugo-Hunchback.jpg" title="Illustration from Victor Hugo et son temps (1881)" >}}
+{{< figure src="/images/img/厦大白城沙滩220114只身独影.jpg" title="Most sights of nature refresh me, even if only one alone." >}}
 
-_The Hunchback of Notre-Dame_ (French: _Notre-Dame de Paris_) is a French Romantic/Gothic novel by Victor Hugo, published in 1831. The original French title refers to Notre Dame Cathedral, on which the story is centered. English translator Frederic Shoberl named the novel The Hunchback of Notre Dame in 1833 because at the time, Gothic novels were more popular than Romance novels in England. The story is set in Paris, France in the Late Middle Ages, during the reign of Louis XI.
+I'm **Clifford Chan**, a software engineer with a bachelor's degree in Computational Mathematics. I have a passion for exploring the unknown and cybersecurity. In my spare time, I enjoy activities like traveling, mathematics, and philosophy.
+
+
+**Skills and Expertise:**
+
+Javascript, HTML/CSS, Reactjs, Julia, C/C++, Penetration Testing, Reverse Analysis. I am currently learning Operations Research and Machine Learning Mathematics Theory.
+
+
+**Work Experience:**
+
+Information Security Consultant at Leadsec;
+
+China's Ministry of Public Security's Internet Protection Campaign;
+
+Product Manager at Zhizhangyi Company
+
+**Future Plan:**
+Apply for PhD study.
+
+
