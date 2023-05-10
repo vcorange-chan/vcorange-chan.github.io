@@ -22,5 +22,10 @@
       {{ end }}
       {{ partialCached "social-follow.html" . }}
     </div>
+    <li class="list f5 f4-ns fw4 dib pr3">
+      <a class="hover-white no-underline white-90" href={{ "tags" | relLangURL }} title={{ i18n "tags" }}>
+          {{ i18n "tags" }}
+      </a>
+  </li>
   </div>
 </nav>

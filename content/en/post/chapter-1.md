@@ -2,15 +2,17 @@
 date: 2017-04-09T10:58:08-04:00
 description: "The Grand Hall"
 featured_image: "/images/Pope-Edouard-de-Beaumont-1844.jpg"
-tags: ["scene"]
 title: "Chapter I: The Grand Hall"
+tags: [Hugo, tags, RSS]
+toc: true
 ---
 
 Three hundred and forty-eight years, six months, and nineteen days ago
 to-day, the Parisians awoke to the sound of all the bells in the triple
 circuit of the city, the university, and the town ringing a full peal.
 
-The sixth of January, 1482, is not, however, a day of which history has
+# The sixth of January, 
+1482, is not, however, a day of which history has
 preserved the memory. There was nothing notable in the event which thus
 set the bells and the bourgeois of Paris in a ferment from early morning.
 It was neither an assault by the Picards nor the Burgundians, nor a hunt
@@ -28,7 +30,8 @@ to regale them at his Hôtel de Bourbon, with a very “pretty morality,
 allegorical satire, and farce,” while a driving rain drenched the
 magnificent tapestries at his door.
 
-What put the “whole population of Paris in commotion,” as Jehan de Troyes
+## What put the “whole population of Paris in commotion,” 
+as Jehan de Troyes
 expresses it, on the sixth of January, was the double solemnity, united
 from time immemorial, of the Epiphany and the Feast of Fools.
 

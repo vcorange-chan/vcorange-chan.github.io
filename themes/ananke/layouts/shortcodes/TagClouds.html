@@ -1,0 +1,44 @@
+<!-- See https://blog.cubieserver.de/2020/adding-a-tag-cloud-to-my-hugo-blog/ -->
+
+<script>
+    let tagMap = new Map();
+    let tagArray = new Array();
+    {{ range $key, $value := $.Site.Taxonomies.tags }}
+    tagMap.set("{{ $key }}", {{ len $value }});
+    tagArray.push([{{ $key }}, {{ len $value }}]);
+    {{ end }}
+  </script>
+  
+  <div id="tag-wrapper" style="width: auto; height: 400px;"></div>
+  
+  <script src="/js/wordcloud2.js"></script>
+  <script>
+    const tagCanvas = document.querySelector("#tag-wrapper"); // select your element to draw in
+  
+    WordCloud(document.querySelector("#tag-wrapper"), {
+      list: tagArray,
+      classes: "tag-cloud-item", // add a class to each tag element so we can easily loop over it
+      weightFactor: 40,
+    });
+  
+    tagCanvas.addEventListener('wordcloudstop', function (e) {
+      // loop over all added elements (by class name)
+      document.querySelectorAll('.tag-cloud-item').forEach(function (element) {
+        const word = element.innerHTML;
+  
+        element.innerHTML = `<a href="../tags/${word}/" style="color: inherit;">${word}</a>`;
+      });
+    });
+  </script>
+  
+  <div class="container tagcloud">
+    {{ if ne (len $.Site.Taxonomies.tags) 0 }}
+    <ul>
+      {{ range $.Site.Taxonomies.tags.Alphabetical }}
+      <li><a href={{ .Page.RelPermalink}} >
+          {{ .Page.Title }} ({{ .Count }})
+        </a></li>
+      {{ end }}
+    </ul>
+    {{ end }}
+  </div>
