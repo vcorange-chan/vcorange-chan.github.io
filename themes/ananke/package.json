@@ -13,11 +13,13 @@
    "tachyons": "project"
   }
  },
- "dependencies": {},
+ "dependencies": {
+  "mathjax": "^3.2.2"
+ },
  "description": "Theme Ananke",
  "devDependencies": {
   "auto-changelog": "^1.16.1",
-  "cssnano": "^3.10.0",
+  "cssnano": "^6.0.1",
   "postcss-cli": "^7.1.0",
   "postcss-cssnext": "^2.10.0",
   "tachyons": "^4.9.1"
@@ -35,7 +37,7 @@
   "url": "git+https://github.com/theNewDynamic/gohugo-theme-ananke.git"
  },
  "scripts": {
-  "version": "auto-changelog -p --template keepachangelog --commit-limit 0 \u0026\u0026 git add CHANGELOG.md",
+  "version": "auto-changelog -p --template keepachangelog --commit-limit 0 && git add CHANGELOG.md",
   "deploy": " cd exampleSite; hugo;"
  },
  "version": "2.7.0"
