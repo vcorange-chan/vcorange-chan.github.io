@@ -30,3 +30,4 @@ But, in a larger sense, we can not dedicate－we can not consecrate－we can not
  $$
  f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x}
  $$
+
