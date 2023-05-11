@@ -24,7 +24,7 @@ enableRobotsTXT = true
     contentDir = "content/cn"
 
 [sitemap]
-  changefreq = "monthly"
+  changefreq = "daily"
   priority = 0.5
   filename = "sitemap.xml"
 
@@ -40,3 +40,5 @@ enableRobotsTXT = true
   commentoEnable = false
   from = "2023"
   math = true
+
+  

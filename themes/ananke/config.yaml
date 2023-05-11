@@ -16,6 +16,3 @@ params:
   - name: facebook
     label: Facebook
     follow: false
-  - name: rss
-    label: RSS
-    url: /index.xml
