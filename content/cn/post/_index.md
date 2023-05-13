@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "随笔"
 
 description: "Clifford Chan's Blog"
 

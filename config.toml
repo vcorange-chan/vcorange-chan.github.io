@@ -42,3 +42,7 @@ enableRobotsTXT = true
   math = true
 
   
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

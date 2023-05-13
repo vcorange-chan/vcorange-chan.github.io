@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: "项目"
 featured_image: '/images/cover/厦大白城沙滩220114扶石听涛.jpg'
 description: "My projects, research and papers"
 

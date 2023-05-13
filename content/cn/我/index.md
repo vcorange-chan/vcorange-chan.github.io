@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "我"
 description: "Earth and Sky, the hotel of journey. Time goes by, without any delay."
 featured_image: '/images/cover/青岛石老人220108浪珠飞跃.jpg'
 menu:

@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: 联系
 featured_image: '/images/cover/广州长隆动物园猫头鹰.jpg'
 omit_header_text: true
 description: I'd love to hear from you
