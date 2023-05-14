@@ -93,7 +93,7 @@ _An affine set $C$ is a set obtained by adding the same fixed vector ($x_0$ in p
 $$
 V=\\\{x-x_0|x\in C\\\} \forall x_0 \in C \\\ = \\\{x-x_0|Ax=b\\\}, Ax_0=b \\\ = \\\{x-x_0|A(x-x_0)=0\\\} \\\ = \\\{y|Ay=0\\\}
 $$
-$V$ is the **null space** of $A$. **$C={x|Ax=b}$ is a translation of $V$**.
+$V$ is the **null space** of $A$. **$C=\\\{x|Ax=b\\\}$ is a translation of $V$**.
 
 2. Every affine set can be expressed as the solution set of a system of linear equations.
 
@@ -203,6 +203,13 @@ Hull:
 - Convex hull: H is an convex hull extend $C$(maybe not convex set) to the smallest convex set $H$
 
 - Conic hull: H is an conic hull extend $C$(maybe not conic set) to the smallest conic set $H$
+
+## Some simple exanples
+
+- Empty set: affine(hence, convex) subsets of $R^n$
+- Single point: affine(hence, convex) subsets of $R^n$
+- The whole space $R^n$: affine(hence, convex) subsets of $R^n$
+
 
 ## References
 1.[中科大凌青凸优化3/55](https://www.youtube.com/watch?v=WoPpBzG23aY&list=PLex0qwR2dnJh_7351A8HmasW1G-__le_S&index=3)

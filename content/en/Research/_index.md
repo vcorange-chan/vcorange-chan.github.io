@@ -14,12 +14,6 @@ toc: true
 
 + Convex Optimination
 
-    [中科大凌青凸优化3/55](https://www.youtube.com/watch?v=WoPpBzG23aY&list=PLex0qwR2dnJh_7351A8HmasW1G-__le_S&index=3)
-
-    [中科大凌青凸优化4/55](https://www.youtube.com/watch?v=PR6S-FhOOgg&list=PLex0qwR2dnJh_7351A8HmasW1G-__le_S&index=4)
-
-    [Note: Affine-and-convex-sets](content/en/post/Affine-and-convex-sets.md)
-
 # Complete:
 # Paper:
 # Project: 
