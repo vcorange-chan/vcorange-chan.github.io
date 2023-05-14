@@ -16,3 +16,6 @@ params:
   - name: facebook
     label: Facebook
     follow: false
+  - name: medium
+    label: Medium
+    url: https://medium.com/@vcorange
