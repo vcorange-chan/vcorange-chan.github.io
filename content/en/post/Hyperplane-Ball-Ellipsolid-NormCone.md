@@ -1,6 +1,6 @@
 ---
-title: "Ball, Ellipsolids, and Norm cones"
-description: "Ch2.2"
+title: "Hyperplanes, Ball, Ellipsolids, and Norm cones"
+description: "Ch2.2 Hyperplane, Halfspace, Ball, Ellipsolid, Norm cone"
 author: "Clifford Chan"
 date: "2023-05-14"
 featured_image: "/images/cover/ConvexOpCover.PNG"
