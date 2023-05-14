@@ -9,13 +9,8 @@ tags: [Optimization]
 toc: true
 ---
 
-- 名词：线 Line (Type::Set)
-    
-    通俗定义：
-    Points of the form $y = θx_1 + (1 − θ)x_2$, where $θ ∈ R$.
-    
-    属性：
-    
+# 线 Line (Type::Set)
+ 
     - 成立条件：$x_{1} \neq  x_{2}$ are two points in $R^{n}$
     - 代数描述：
 

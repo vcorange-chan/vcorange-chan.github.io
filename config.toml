@@ -46,3 +46,5 @@ enableRobotsTXT = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+      [markup.goldmark.renderer.mathjax]
+        use_dollar_delimiters = true
