@@ -3,7 +3,7 @@ title: "Affine and convex sets"
 description: "Ch2"
 author: "Clifford Chan"
 date: "2023-05-12"
-featured_image: ""
+featured_image: "/images/cover/ConvexOpCover.PNG"
 toc: true
 tags: [Optimization]
 
