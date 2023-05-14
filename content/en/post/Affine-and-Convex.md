@@ -90,7 +90,9 @@ Example：
 
 _An affine set $C$ is a set obtained by adding the same fixed vector ($x_0$ in picture above) to each point of a vector space($\forall v_i \in V$). $C$ is a result of $l$ translated by $x_0$_
 
-$$V=\{x-x_0|x\in C\} \forall x_0 \in C\\=\{x-x_0|Ax=b\}, Ax_0=b\\=\{x-x_0|A(x-x_0)=0\}\\=\{y|Ay=0\}$$
+$$
+V=\\\{x-x_0|x\in C\\\} \forall x_0 \in C \\\ = \\\{x-x_0|Ax=b\\\}, Ax_0=b \\\ = \\\{x-x_0|A(x-x_0)=0\\\} \\\ = \\\{y|Ay=0\\\}
+$$
 $V$ is the **null space** of $A$. **$C={x|Ax=b}$ is a translation of $V$**.
 
 2. Every affine set can be expressed as the solution set of a system of linear equations.
