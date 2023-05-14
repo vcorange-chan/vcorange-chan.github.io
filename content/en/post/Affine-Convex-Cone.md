@@ -1,5 +1,5 @@
 ---
-title: "Affine and convex sets"
+title: "Affine, convex and cone"
 description: "Ch2.1 Line, Line segment, Affine combination/Set/Hull, Convex combination/Set/Hull, Conic combination/Set/Hull"
 author: "Clifford Chan"
 date: "2023-05-12"
