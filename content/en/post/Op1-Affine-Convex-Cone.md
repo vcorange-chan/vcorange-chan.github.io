@@ -1,6 +1,6 @@
 ---
 title: "Affine, convex and cone"
-description: "Ch2.1 Line, Line segment, Affine combination/Set/Hull, Convex combination/Set/Hull, Conic combination/Set/Hull"
+description: "Line, Line segment, Affine combination/Set/Hull, Convex combination/Set/Hull, Conic combination/Set/Hull"
 author: "Clifford Chan"
 date: "2023-05-12"
 featured_image: "/images/cover/ConvexOpCover.PNG"
@@ -158,10 +158,10 @@ Subject to the conditions of affine combination, affine set and affine hull, res
 
 ## Cones (type::set)
     
-Given a vector, a ray starting from the origin pointing in the vector's direction.
+Given a vector, a ray **starting from the origin pointing** in the vector's direction.
     
 - Prerequisites：$\forall x \in C, \theta \ge 0$ 
-- Description in algebra：$\theta x \in C$
+- Description in algebra：$\\\{\theta x\\\} = C$(!!!$0\in C$)
 
 ## Conic combination （type::vector）
     
@@ -171,7 +171,7 @@ Given a vector, a ray starting from the origin pointing in the vector's directio
 ## Convex cones （type::set）
 
 - Prerequisites：$\forall x_i \in C$, $\theta_i \ge 0, i=1,...,k$
-- Description in algebra: $C=\\\{x|x=\sum_i^k\theta_ix_i \\\}$ $C$ is a Convex cones.
+- Description in algebra: $C=\\\{x|x=\sum_i^k\theta_ix_i \\\}$ $C$ is a Convex cones.($0\in C$)
 
 ## Conic hull （type::set）
 
@@ -212,11 +212,9 @@ Hull:
 
 
 ## References
-1.[中科大凌青凸优化3/55](https://www.youtube.com/watch?v=WoPpBzG23aY&list=PLex0qwR2dnJh_7351A8HmasW1G-__le_S&index=3)
-
-2.[中科大凌青凸优化4/55](https://www.youtube.com/watch?v=PR6S-FhOOgg&list=PLex0qwR2dnJh_7351A8HmasW1G-__le_S&index=4)
-
-3.Convex Optimization by Boyd,Vandenberg
-
-4.[Linear Programming, Lecture 12. Convexity.](https://www.youtube.com/watch?v=oyQjolvCIDI&t=2890s)
+1. [中科大凌青凸优化3/55](https://www.youtube.com/watch?v=WoPpBzG23aY&list=PLex0qwR2dnJh_7351A8HmasW1G-__le_S&index=3)
+2. [中科大凌青凸优化4/55](https://www.youtube.com/watch?v=PR6S-FhOOgg&list=PLex0qwR2dnJh_7351A8HmasW1G-__le_S&index=4)
+3. Convex Optimization by Boyd,Vandenberg. Chapter 2.1
+4. [Linear Programming, Lecture 12. Convexity.](https://www.youtube.com/watch?v=oyQjolvCIDI&t=2890s)
+5. Introduction to Linear Optimization by Dimitris Bertsimas, John N. Tsitsiklis. Chapter 2.1
 

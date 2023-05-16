@@ -1,6 +1,6 @@
 ---
 title: "Hyperplanes, Ball, Ellipsolids, and Norm cones"
-description: "Ch2.2 Hyperplane, Halfspace, Ball, Ellipsolid, Norm cone"
+description: "Hyperplane, Halfspace, Ball, Ellipsolid, Norm cone"
 author: "Clifford Chan"
 date: "2023-05-14"
 featured_image: "/images/cover/ConvexOpCover.PNG"
@@ -21,7 +21,7 @@ A hyperplane is a affine space(maybe not linear) that transformed from kernel sp
 - Description in Algebra: $ \\\{x | a^T x = b \\\} $ (hence an affine set)
 - Description in Geometry: ![OB is Hyperplane](/images/Mathfolder/Hyperplane.PNG) The line $l:=a^Tx=0$ is a hyperplane and the line $l':=a^Tx=b$ is a hyperplane.
 
-In this picture, $a$ is translated linear transformation and $b$ is offset from the origin, also as translating distance from the origin. The kernel vectors $ker$ of hyperplane $\\\{x|a^Tx=b\\\}$ are vectors $x-x_0$ ($ker=x-x_0, a^Tker=0$), also vectors parallel to $x \in \\\{x|a^Tx=0\\\}$. So that $ker \in \\\{x|a^Tx=0\\\}$
+In this picture, $a$ is translated linear transformation and $b$ is offset from the origin, also as translating distance $\frac{b}{||a||}$ from the origin. The kernel vectors $ker$ of hyperplane $\\\{x|a^Tx=b\\\}$ are vectors $x-x_0$ ($ker=x-x_0, a^Tker=0$), also vectors parallel to $x \in \\\{x|a^Tx=0\\\}$. So that $ker \in \\\{x|a^Tx=0\\\}$
 
 ### motivation
 A hyperplane is an (n-1)-dimensional topological plane in an n-dimensional space.
@@ -83,3 +83,4 @@ then $\varepsilon=\\\{(x_1,x_2)|\frac{x_1^2}{4}+x_2^2\le1\\\}$
 1. [中科大凌青凸优化5/55](https://www.youtube.com/watch?v=cVH8S94Qcds&t=186s)
 2. [中科大凌青凸优化6/55](https://www.youtube.com/watch?v=wXlf3lnSY2w)
 3. Convex Optimization by Boyd,Vandenberg
+4. Introduction to Linear Optimization by Dimitris Bertsimas, John N. Tsitsiklis. Chapter 2.1
