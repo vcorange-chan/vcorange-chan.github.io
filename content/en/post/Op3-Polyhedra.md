@@ -32,19 +32,24 @@ and inequalities
 ## Simplex (Type::set, Convex set)
 
 - Prerequisites: $k + 1$ points $v_0, . . . , v_k ∈ R^n$ are affinely independent, which means $v_1 − v_0, . . . , v_k − v_0 are linearly independent. 
-- Description in Algebra: $C = conv\\\{v_0, . . . , v_k\\\} = \\\{θ_0v_0 + · · · + θ_kv_k | θ \ge 0, 1^Tθ = 1\\\}$
+- Description in Algebra: 
+$C = conv \\\{v_0, . . . , v_k \\\} = \\\{θ_0v_0 + · · · + θ_kv_k | θ \ge 0, I^Tθ = 1 \\\}$
+- Description in Geometry:  
 
-单纯形是空间中的子集，
-是仿射平面上的线段(给定2个向量，表示1维线段)；
-是仿射立体空间上的平面（给定3个向量，表示2维平面）。。。
+    ![Simplex](/images/Mathfolder/Simplex.PNG)
+    Simplex shapes are line, triangle, tetrahedron, Simplex is a Convex Hull.
 
-单纯形是仿射定义的，给了n+1个向量，它们仿射线性独立。仿射线性独立的目的是：单纯形内的点只有唯一一组线性组合。用最低的维数表示单纯形中的点。例如：线段用v1-v0表示，平面用v1-v0和v2-v0表示。
+But quadrilateral is not a simplex shape because the same polygon can be formed with different combinations of vertices (e.g. $v_1- v_0$, $v_2-v_0$, $v_3-v_0$ or $v_1-v_0$, $v_2-v_0$, $v_4-v_0$). (degenerate)
 
-单纯形是线段，三角形，三角体...比所给空间低一个维度，因此仿射A变换单纯形成为单位子空间，分两个部分变换，$A^{nn}=(A_1^{kn} , A_2^{(n-k)n})$.$A_1^{kn}$将三角形$B_{nk}$变换为过原点的三角形，同时只保留有效维度$k \times k$，同时多余的$n-k$维度经过$A_2$变换后为0。
+- Description in Statics:
+    
+    Vectors in the probability simplex correspond to probability distributions on a set with n elements, with $x_i$ interpreted as the probability of the $ith$ element.
 
-单纯形是凸包，但四边形不是单纯形，因为同一个点可用v1 v2 v3表出，也可以用v1 v2 v4表出。四边形时称单纯形退化。
+$v_1 - v_0, . . . , v_k - v_0$ are linearly independent in order to ensure each point can be formed by a combination uniquely.
 
-概率空间是凸的，是单纯形。
+- Question: Prove simplex is a polyhedra.
 
-证明单纯形是多边形的办法：
+## Reference
 
+1. [中科大凌青凸优化6/55](https://www.youtube.com/watch?v=wXlf3lnSY2w)
+2. _Convex Optimization_ by Boyd,Vandenberg
