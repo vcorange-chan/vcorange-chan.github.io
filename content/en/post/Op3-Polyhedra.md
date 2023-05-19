@@ -1,5 +1,5 @@
 ---
-title: "Polyhedra"
+title: "Op3. Polyhedra"
 description: "Polyhedra, Simplex"
 author: "Clifford Chan"
 date: "2023-05-14"

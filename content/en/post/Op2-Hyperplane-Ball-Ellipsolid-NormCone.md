@@ -1,5 +1,5 @@
 ---
-title: "Hyperplanes, Ball, Ellipsolids, and Norm cones"
+title: "Op2. Hyperplanes, Ball, Ellipsolids, and Norm cones"
 description: "Hyperplane, Halfspace, Ball, Ellipsolid, Norm cone"
 author: "Clifford Chan"
 date: "2023-05-14"

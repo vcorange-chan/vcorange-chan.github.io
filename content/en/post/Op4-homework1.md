@@ -1,8 +1,8 @@
 ---
-title: "您的文章标题"
+title: "Op4. Homework1"
 date: "2023-05-14"
-description: "您的文章描述"
-
+description: "Op4-Homework1"
+featured_image: "/images/cover/ConvexOpCover.PNG"
 # pdf: "Op4-hw1sol.pdf"
 tags: [Optimization]
 
