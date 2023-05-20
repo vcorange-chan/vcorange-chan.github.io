@@ -52,4 +52,5 @@ $v_1 - v_0, . . . , v_k - v_0$ are linearly independent in order to ensure each 
 ## Reference
 
 1. [中科大凌青凸优化6/55](https://www.youtube.com/watch?v=wXlf3lnSY2w)
-2. _Convex Optimization_ by Boyd,Vandenberg
+2. [中科大凌青凸优化7/55](https://www.youtube.com/watch?v=x4GzT8lAbMc)
+3. _Convex Optimization_ by Boyd,Vandenberg. Chapter 2.2

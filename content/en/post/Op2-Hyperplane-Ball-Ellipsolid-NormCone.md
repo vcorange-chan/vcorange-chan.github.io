@@ -82,5 +82,5 @@ then $\varepsilon=\\\{(x_1,x_2)|\frac{x_1^2}{4}+x_2^2\le1\\\}$
 
 1. [中科大凌青凸优化5/55](https://www.youtube.com/watch?v=cVH8S94Qcds&t=186s)
 2. [中科大凌青凸优化6/55](https://www.youtube.com/watch?v=wXlf3lnSY2w)
-3. Convex Optimization by Boyd,Vandenberg
+3. _Convex Optimization_ by Boyd,Vandenberg. Chapter 2.2
 4. Introduction to Linear Optimization by Dimitris Bertsimas, John N. Tsitsiklis. Chapter 2.1

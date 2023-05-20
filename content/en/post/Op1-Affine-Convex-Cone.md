@@ -214,7 +214,7 @@ Hull:
 ## References
 1. [中科大凌青凸优化3/55](https://www.youtube.com/watch?v=WoPpBzG23aY&list=PLex0qwR2dnJh_7351A8HmasW1G-__le_S&index=3)
 2. [中科大凌青凸优化4/55](https://www.youtube.com/watch?v=PR6S-FhOOgg&list=PLex0qwR2dnJh_7351A8HmasW1G-__le_S&index=4)
-3. Convex Optimization by Boyd,Vandenberg. Chapter 2.1
+3. _Convex Optimization_ by Boyd,Vandenberg. Chapter 2.1
 4. [Linear Programming, Lecture 12. Convexity.](https://www.youtube.com/watch?v=oyQjolvCIDI&t=2890s)
 5. Introduction to Linear Optimization by Dimitris Bertsimas, John N. Tsitsiklis. Chapter 2.1
 
